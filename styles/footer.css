@@ -1,0 +1,50 @@
+.footer {
+    margin: 0 auto;
+    height: 229px;
+    background-color: #121212;
+    color: white;
+}
+
+.footer__list {
+    margin-left: 345px;
+}
+
+.footer__list-link {
+    /* margin-right: 55px; */
+    margin-top: 60px;
+    display: inline-block;
+}
+
+.footer__link {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: white;
+}
+
+.footer__link:hover {
+    opacity: 0.5;
+}
+
+.footer__link-about {
+    margin-right: 52px;
+}
+
+.footer__link-projects {
+    margin-right: 53px;
+}
+
+.footer__link-services {
+    margin-right: 53px;
+}
+
+.footer__text {
+    margin-top: 87px;
+    padding-left: 7px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    opacity: 0.5;
+}
