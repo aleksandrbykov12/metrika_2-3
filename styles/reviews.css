@@ -58,6 +58,10 @@
 }
 
 @media (max-width: 767px) {
+    .reviews h2 {
+        margin-bottom: 25px;
+    }
+
     .reviews__header {
         margin-bottom: 10px;
         font-size: 25px;
@@ -65,6 +69,7 @@
     }
 
     .reviews__text {
+        width: 355px;
         font-size: 16px;
         letter-spacing: -0.48px;
     }
@@ -78,6 +83,6 @@
     }
 
     .reviews__big {
-        width: 100%;
+        width: 348px;
     }
 }
