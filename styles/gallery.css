@@ -2,6 +2,12 @@
     height: 717px;
 }
 
+.gallery__container {
+    margin: 0 auto;
+    padding: 0 125px;
+    max-width: 1400px;
+}
+
 .gallery-wrapper {
     position: relative;
 }
@@ -101,6 +107,10 @@
         height: 536px;
     }
 
+    .gallery__container {
+        padding: 0;
+    }
+
     .gallery__title-wrapper {
         top: 80px;
         left: 50px;
@@ -140,6 +150,10 @@
 @media (max-width: 767px) {
     .gallery {
         height: 408px;
+    }
+
+    .gallery__container {
+        padding: 0;
     }
 
     .gallery__title-wrapper {
